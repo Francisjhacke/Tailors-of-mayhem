@@ -135,9 +135,18 @@ body {
   textarea {
       resize: none;
   }
+
+  .slide-style {
+      max-height:500px;
+  }
   
   
 @media (max-width: 768px) {
+
+    .slide-style {
+        max-height:300px;
+    }
+
 	.carousel-caption {
 	  display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
 	}
