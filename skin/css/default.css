@@ -9,7 +9,7 @@ body {
       color: #111;
   }
   .container {
-      padding: 40px 120px;
+      padding: 20px 40px;
   }
   .person {
       border: 10px solid transparent;
@@ -145,6 +145,10 @@ body {
   
   
 @media (max-width: 768px) {
+
+    .container {
+      padding: 20px 120px;
+    }
 
     .carousel-inner img {
         -webkit-filter: grayscale(90%);
