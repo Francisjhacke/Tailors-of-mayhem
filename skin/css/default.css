@@ -138,6 +138,7 @@ body {
 
   .slide-style {
       max-height:500px;
+      height:500px;
   }
   
   
@@ -145,6 +146,7 @@ body {
 
     .slide-style {
         max-height:300px;
+        height:300px;
     }
 
 	.carousel-caption {
