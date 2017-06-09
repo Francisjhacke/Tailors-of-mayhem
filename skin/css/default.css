@@ -30,6 +30,8 @@ body {
       filter: grayscale(90%); /* make all photos black and white */ 
       width: 100%; /* Set width to 100% */
       margin: auto;
+      height:500px;
+      max-height:500px;
   }
   .carousel-caption h3 {
       color: #fff !important;
@@ -144,9 +146,13 @@ body {
   
 @media (max-width: 768px) {
 
-    .slide-style img {
+    .carousel-inner img {
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        height:500px;
         max-height:300px;
-        height:300px;
     }
 
 	.carousel-caption {
