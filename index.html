@@ -150,7 +150,7 @@
     <p class="text-center">Don't miss out on hearing our music!</p>
 
     <div class="row text-center">
-      <div class="col-sm-4">
+      <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-1.jpg" alt="Bar 1" width="400" height="300">
           <p><strong>The Atria</strong></p>
@@ -158,7 +158,7 @@
           <button class="btn" data-toggle="modal" data-target="#myModal">More Info</button>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-2.jpg" alt="Bar 2" width="400" height="300">
           <p><strong>Our basement</strong></p>
@@ -166,7 +166,7 @@
           <button class="btn" data-toggle="modal" data-target="#myModal">More Info</button>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-3.jpg" alt="Bar 3" width="400" height="300">
           <p><strong>A Dog shelter</strong></p>
@@ -178,10 +178,9 @@
   </div>
   
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <!--<div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
@@ -211,7 +210,7 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
@@ -219,27 +218,30 @@
   <p class="text-center"><em>Looking forward to hearing your feedback</em></p>
 
   <div class="row">
-    <div class="col-md-4">
-      <p>Fan? Leave us a note!</p>
+    <div class="col-xs-12 col-sm-12 col-md-4 mobile-contact-block">
+      <p class="mobile-center-text">Fan? Leave us a note!</p>
 	  <hr/>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Ontario, CA</p>
-      <p><span class="glyphicon glyphicon-phone"></span> (905) 439-6544</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> Tailorsofmayhem@outlook.com</p>
+      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-map-marker"></span> Ontario, CA</p>
+      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-phone"></span> (905) 439-6544</p>
+      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-envelope"></span> Tailorsofmayhem@outlook.com</p>
     </div>
-    <div class="col-md-8">
+    <div class="col-xs-12 col-sm-12 col-md-8">
       <div class="row">
-        <div class="col-sm-6 form-group">
+        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
-        <div class="col-sm-6 form-group">
+        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
       <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
+        <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+          <button class="btn pull-right mobile-send-button" type="submit">Send</button>
         </div>
       </div>
     </div>

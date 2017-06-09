@@ -147,4 +147,19 @@ body {
     .navbar-collapse {
       background-color: #555
     }
+
+    .mobile-block {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    .mobile-contact-block {
+        padding:0;
+    }
+    .mobile-center-text {
+        text-align:center;
+    }
+    .mobile-send-button {
+        width:100%;
+    }
 }
