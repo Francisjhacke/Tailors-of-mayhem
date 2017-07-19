@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" type="text/css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./skin/css/default.css" type="text/css">
   
@@ -22,21 +22,22 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">Tailors Of Mayhem</a>
-    </div>
+
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
+      <ul class="nav navbar-nav navbar-left">
         <li><a href="#band">BAND</a></li>
-        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#music">MUSIC</a></li>
+        <li><a href="#gigs">GIGS</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
+      <div class="navbar-header navbar-right">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><img class="brand-logo" style="padding-bottom:5px;"src="./skin/img/tom-logo.png" alt="Tailors Of Mayhem Logo"></a>
+      </div>
     </div>
   </div>
 </nav>
@@ -90,92 +91,98 @@
 <!-- Container (The Band Section) -->
 <div id="band" class="container text-center">
   <h3>TAILORS OF MAYHEM</h3>
-  <p><em>We love music!</em></p>
-  <p>We're a four piece band coming from Whitby, Ontario. Our genre ranges from hard rock, grunge, punk and blues. Additionally I copied this from facebook, I need more things to write here so
+  <p class="intro-desc">We're a four piece band coming from Whitby, Ontario. Our genre ranges from hard rock, grunge, punk and blues. Additionally I copied this from facebook, I need more things to write here so
   .... lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
   <br>
   <div class="row">
     <div class="col-sm-3">
-      <p class="text-center"><strong>Phil</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="./skin/img/phil.jpg" class="img-circle person" alt="Random Name">
-      </a>
-      <div id="demo" class="collapse">
+      <img src="./skin/img/phil.jpg" class="img-circle person" alt="Random Name">
+      <div>
+        <p class="text-center name"><strong>Phil</strong></p>
         <p>Guitarist and Lead Vocalist</p>
         <p>Loves long walks on the beach</p>
-        <p>Member since ....</p>
       </div>
     </div>
     <div class="col-sm-3">
-      <p class="text-center"><strong>Kody</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="./skin/img/kody.jpg" class="img-circle person" alt="Random Name">
-      </a>
-      <div id="demo2" class="collapse">
+      <img src="./skin/img/kody.jpg" class="img-circle person" alt="Random Name">
+      <div>
+        <p class="text-center name"><strong>Kody</strong></p>
         <p>Drummer and vocalist</p>
         <p>Loves drummin'</p>
-        <p>Member since ...</p>
       </div>
     </div>
     <div class="col-sm-3">
-      <p class="text-center"><strong>Mathieu</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="./skin/img/mat.jpg" class="img-circle person" alt="Random Name">
-      </a>
-      <div id="demo3" class="collapse">
+      <img src="./skin/img/mat.jpg" class="img-circle person" alt="Random Name">
+      <div>
+        <p class="text-center name"><strong>Mathieu</strong></p>
         <p>Drummer and vocalist</p>
         <p>Loves math</p>
-        <p>Member since ...</p>
       </div>
     </div>
 	<div class="col-sm-3">
-      <p class="text-center"><strong>Juan</strong></p><br>
-      <a href="#demo4" data-toggle="collapse">
-        <img src="./skin/img/juan.jpg" class="img-circle person" alt="Juan">
-      </a>
-      <div id="demo4" class="collapse">
+      
+      <img src="./skin/img/juan.jpg" class="img-circle person" alt="Juan">
+      <div>
+        <p class="text-center name"><strong>Juan</strong></p>
         <p>Drummer and vocalist</p>
         <p>Loves math</p>
-        <p>Member since ...</p>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<div id="music" class="bg-1">
   <div class="container">
-    <h3 class="text-center">UPCOMING GIGS</h3>
-    <p class="text-center">Don't miss out on hearing our music!</p>
+    <h3 class="text-center">MUSIC</h3>
+    <div class="row" style="padding-top:15px;">
+      <div class="col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-sm-10 col-md-10 col-lg-10">
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1480553701/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/artwork=small/transparent=true/" seamless>
+          <a href="http://tailorsofmayhem.bandcamp.com/track/kamikaze">Kamikaze by Tailors Of Mayhem</a>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div id="gigs" class="bg-1">
+  <div class="container">
+    <h3 class="text-center" style="padding-bottom:10px;">UPCOMING GIGS</h3>
     <div class="row text-center">
       <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-1.jpg" alt="Bar 1" width="400" height="300">
-          <p><strong>The Atria</strong></p>
-          <p>Friday 27 August 2017</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">More Info</button>
+          <p>
+            <strong>Our basement</strong>
+            <br/>Friday, August 27th, 2017
+          </p>
+          <a href="https://www.facebook.com/pg/TailorsofMayhem/events/?ref=page_internal" class="btn">More Info</a>
         </div>
       </div>
       <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-2.jpg" alt="Bar 2" width="400" height="300">
-          <p><strong>Our basement</strong></p>
-          <p>Saturday 28 October 2017</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">More Info</button>
+          <p>
+            <strong>Our basement</strong>
+            <br/>Friday, August 27th, 2017
+          </p>
+          <a href="https://www.facebook.com/pg/TailorsofMayhem/events/?ref=page_internal" class="btn">More Info</a>
         </div>
       </div>
       <div class="col-sm-4 mobile-block">
         <div class="thumbnail">
           <img src="./skin/img/bar-3.jpg" alt="Bar 3" width="400" height="300">
-          <p><strong>A Dog shelter</strong></p>
-          <p>Saturday 29 December 2017</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">More Info</button>
+          <p>
+            <strong>Our basement</strong>
+            <br/>Friday, August 27th, 2017
+          </p>
+          <a href="https://www.facebook.com/pg/TailorsofMayhem/events/?ref=page_internal" class="btn">More Info</a>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
+
   <!-- Modal -->
   <!--<div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -212,19 +219,17 @@
 </div>-->
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container" style="padding:20px 30px;">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>Looking forward to hearing your feedback</em></p>
-
+<div id="contact" class="container">
+  <h3 class="text-center" style="padding-bottom:15px;">CONTACT</h3>
+  <p class="text-center">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-soundcloud" aria-hidden="true"></i>
+    <i class="fa fa-bandcamp" aria-hidden="true"></i>
+  </p>
+  <hr/>
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 mobile-contact-block">
-      <p class="mobile-center-text">Fan? Leave us a note!</p>
-	  <hr/>
-      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-map-marker"></span> Ontario, CA</p>
-      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-phone"></span> (905) 439-6544</p>
-      <p class="mobile-contact-block mobile-center-text"><span class="glyphicon glyphicon-envelope"></span> Tailorsofmayhem@outlook.com</p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-8">
+    <div class="col-xs-12 col-sm-12 col-md-12">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -240,7 +245,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-          <button class="btn pull-right mobile-send-button" type="submit">Send</button>
+          <button class="btn" type="submit">Send</button>
         </div>
       </div>
     </div>
@@ -252,6 +257,12 @@
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
+  <p class="text-center">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-soundcloud" aria-hidden="true"></i>
+    <i class="fa fa-bandcamp" aria-hidden="true"></i>
+  </p>
   <p>Taylors Of Mayhem</p> 
 </footer>
 
@@ -265,7 +276,6 @@ $(document).ready(function(){
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-
       // Prevent default anchor click behavior
       event.preventDefault();
 
@@ -281,7 +291,7 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 })
 </script>
